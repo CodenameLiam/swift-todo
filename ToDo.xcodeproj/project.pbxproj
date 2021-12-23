@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8CD0F2E27748214000795BA /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8CD0F1B27748213000795BA /* ToDo.xcdatamodeld */; };
-		B8CD0F2F27748214000795BA /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8CD0F1B27748213000795BA /* ToDo.xcdatamodeld */; };
+		B82D834D27748A2100890E2A /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B82D834A27748A2100890E2A /* ToDo.xcdatamodeld */; };
+		B82D834E27748A2100890E2A /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B82D834A27748A2100890E2A /* ToDo.xcdatamodeld */; };
+		B82D835027749A9000890E2A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D834F27749A9000890E2A /* ProfileView.swift */; };
+		B82D835127749A9000890E2A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D834F27749A9000890E2A /* ProfileView.swift */; };
+		B82D835327749C3A00890E2A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D835227749C3A00890E2A /* TaskView.swift */; };
+		B82D835427749C3A00890E2A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D835227749C3A00890E2A /* TaskView.swift */; };
+		B82D835727749EE800890E2A /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D835627749EE800890E2A /* TaskCard.swift */; };
+		B82D835827749EE800890E2A /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D835627749EE800890E2A /* TaskCard.swift */; };
+		B82D835A2774A08200890E2A /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D83592774A08200890E2A /* AddTaskView.swift */; };
+		B82D835B2774A08200890E2A /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D83592774A08200890E2A /* AddTaskView.swift */; };
+		B82D835D2774A50C00890E2A /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D835C2774A50C00890E2A /* AddButton.swift */; };
+		B82D835E2774A50C00890E2A /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D835C2774A50C00890E2A /* AddButton.swift */; };
 		B8CD0F3027748214000795BA /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD0F1D27748213000795BA /* ToDoApp.swift */; };
 		B8CD0F3127748214000795BA /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD0F1D27748213000795BA /* ToDoApp.swift */; };
 		B8CD0F3227748214000795BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD0F1E27748213000795BA /* ContentView.swift */; };
@@ -20,7 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B8CD0F1C27748213000795BA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		B82D834B27748A2100890E2A /* ToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo.xcdatamodel; sourceTree = "<group>"; };
+		B82D834C27748A2100890E2A /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		B82D834F27749A9000890E2A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B82D835227749C3A00890E2A /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		B82D835627749EE800890E2A /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
+		B82D83592774A08200890E2A /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		B82D835C2774A50C00890E2A /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
 		B8CD0F1D27748213000795BA /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		B8CD0F1E27748213000795BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8CD0F1F27748213000795BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B82D835527749ECD00890E2A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B82D835627749EE800890E2A /* TaskCard.swift */,
+				B82D835C2774A50C00890E2A /* AddButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		B8CD0F1527748213000795BA = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +85,12 @@
 		B8CD0F1A27748213000795BA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B82D835527749ECD00890E2A /* Components */,
+				B8CD0F4027748365000795BA /* Views */,
 				B8CD0F1D27748213000795BA /* ToDoApp.swift */,
-				B8CD0F1E27748213000795BA /* ContentView.swift */,
 				B8CD0F1F27748213000795BA /* Persistence.swift */,
 				B8CD0F2027748214000795BA /* Assets.xcassets */,
-				B8CD0F1B27748213000795BA /* ToDo.xcdatamodeld */,
+				B82D834A27748A2100890E2A /* ToDo.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -84,6 +110,17 @@
 				B8CD0F2D27748214000795BA /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		B8CD0F4027748365000795BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD0F1E27748213000795BA /* ContentView.swift */,
+				B82D834F27749A9000890E2A /* ProfileView.swift */,
+				B82D835227749C3A00890E2A /* TaskView.swift */,
+				B82D83592774A08200890E2A /* AddTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CD0F2E27748214000795BA /* ToDo.xcdatamodeld in Sources */,
+				B82D835727749EE800890E2A /* TaskCard.swift in Sources */,
+				B82D834D27748A2100890E2A /* ToDo.xcdatamodeld in Sources */,
+				B82D835327749C3A00890E2A /* TaskView.swift in Sources */,
+				B82D835D2774A50C00890E2A /* AddButton.swift in Sources */,
+				B82D835A2774A08200890E2A /* AddTaskView.swift in Sources */,
 				B8CD0F3427748214000795BA /* Persistence.swift in Sources */,
 				B8CD0F3027748214000795BA /* ToDoApp.swift in Sources */,
+				B82D835027749A9000890E2A /* ProfileView.swift in Sources */,
 				B8CD0F3227748214000795BA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,10 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CD0F2F27748214000795BA /* ToDo.xcdatamodeld in Sources */,
 				B8CD0F3527748214000795BA /* Persistence.swift in Sources */,
 				B8CD0F3127748214000795BA /* ToDoApp.swift in Sources */,
+				B82D835127749A9000890E2A /* ProfileView.swift in Sources */,
+				B82D835E2774A50C00890E2A /* AddButton.swift in Sources */,
+				B82D835B2774A08200890E2A /* AddTaskView.swift in Sources */,
+				B82D835427749C3A00890E2A /* TaskView.swift in Sources */,
 				B8CD0F3327748214000795BA /* ContentView.swift in Sources */,
+				B82D835827749EE800890E2A /* TaskCard.swift in Sources */,
+				B82D834E27748A2100890E2A /* ToDo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,12 +513,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B8CD0F1B27748213000795BA /* ToDo.xcdatamodeld */ = {
+		B82D834A27748A2100890E2A /* ToDo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B8CD0F1C27748213000795BA /* Shared.xcdatamodel */,
+				B82D834B27748A2100890E2A /* ToDo.xcdatamodel */,
+				B82D834C27748A2100890E2A /* Shared.xcdatamodel */,
 			);
-			currentVersion = B8CD0F1C27748213000795BA /* Shared.xcdatamodel */;
+			currentVersion = B82D834B27748A2100890E2A /* ToDo.xcdatamodel */;
 			path = ToDo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
